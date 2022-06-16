@@ -30,6 +30,8 @@ public class Posts {
         this.author = author;
     }
 
+    // Service 단에서 사용하는 수정 메서드이다.
+    // DTO 에 바인딩 된 값들을 이 메서드를 통해 Entity 값에 집어넣는 형식이다.
     public void update(String title, String content) {
         this.title = title;
         this.content = content;
