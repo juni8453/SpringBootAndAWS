@@ -1,9 +1,9 @@
 spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/springbootaws
-    username: super
-    password: Wjsqudwns1!
-    driver-class-name: com.mysql.cj.jdbc.Driver
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/SpringBootAndAWS
+#    username: super
+#    password: Wjsqudwns1!
+#    driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     defer-datasource-initialization: true
